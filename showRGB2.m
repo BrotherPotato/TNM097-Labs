@@ -1,12 +1,12 @@
-function showRGB(RGB)
+function showRGB2(RGB)
 % showRGB(RGB)
 %
-% RGB = Matris med RGB-värden som ska visas på skärmen.
-% Matrisen bör se ut som följande:
+% RGB = Matris med RGB-vÃ¤rden som ska visas pÃ¥ skÃ¤rmen.
+% Matrisen bÃ¶r se ut som fÃ¶ljande:
 % RGB=[r1 g1 b1;r2 g2 b2;...]
 
 % Martin Solli, marso@itn.liu.se
-% ITN, Linköpings Universitet
+% ITN, LinkÃ¶pings Universitet
 
 r=size(RGB,1);
 

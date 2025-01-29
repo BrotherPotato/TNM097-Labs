@@ -1,0 +1,11 @@
+function [meanDeltaE, maxDeltaE] = calcDeltaE(XYZ_ref, XYZ_est)
+
+
+
+[LAB_est(:,1), LAB_est(:,2), LAB_est(:,3)] = xyz2lab(XYZ_est(:,1),XYZ_est(:,2),XYZ_est(:,3));
+
+[L_ref, LAB_ref(:,2), LAB_ref(:,3)] = xyz2lab(XYZ_ref(:,1), XYZ_ref(:,2),XYZ_ref(:,3));
+
+distance = sqrt()
+maxDeltaE = max(distance);
+meanDeltaE = mean(distance);
